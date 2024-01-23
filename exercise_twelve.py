@@ -9,4 +9,8 @@ def income_tax(income):
     #first 10,000
     if income <= 10000:
         tax = 0
+
+    #next 10000
+    elif income <= 20000:
+        tax = (income - 10000) * 10/100
     
