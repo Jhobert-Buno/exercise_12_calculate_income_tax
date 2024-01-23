@@ -13,4 +13,10 @@ def income_tax(income):
     #next 10000
     elif income <= 20000:
         tax = (income - 10000) * 10/100
+
+    #remaining
+    else:
+        tax = 10000 * 10/100 + (income-20000) * 20/100
+
+    return tax
     
