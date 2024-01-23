@@ -19,4 +19,9 @@ def income_tax(income):
         tax = 10000 * 10/100 + (income-20000) * 20/100
 
     return tax
+
+tax = 0
+income = int(input('The amount of income is: '))
+print(f"The tax to pay is: {income_tax(income)}")
+
     
